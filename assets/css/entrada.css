@@ -1,0 +1,15 @@
+.contenido-entrada-blog{
+  width: 60rem;
+  margin: auto;
+}
+.entrada-blog p{
+  margin-bottom: 2rem;
+}
+.contenido-entrada-blog a{
+  color: var(--primary-color);
+  font-weight: 400;
+  transition: font-weight .15s ease-in-out;
+}
+.contenido-entrada-blog a:hover{
+  font-weight: 700;
+}
