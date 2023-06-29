@@ -3,6 +3,10 @@ Primer proyecto guiado del curso "CSS La Guía Completa - Flexbox, CSS Grid, SAS
 
 El proyecto cuenta con las vistas Inicio, Nosotros, Tienda, Blog, Galería y Contacto.
 
+**El proyecto aún no es responsive**
+
 ## Vista del Home
 ![FireShot](https://github.com/jcyepesgarcia/muebles_express/assets/136846281/82dc62f2-bda6-4f63-b772-8c037d1da001)
 
+## Demo
+[http://https://jcyepesgarcia.github.io/muebles_express/](http://https://jcyepesgarcia.github.io/muebles_express/)
