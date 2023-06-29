@@ -1,0 +1,54 @@
+/* ---- formulario ---- */
+.formulario{
+  max-width: 60rem;
+  margin: auto;
+}
+.formulario fieldset{
+  border: .1rem solid #000;
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+.formulario legend{
+  background-color: #005485;
+  width: 90%;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+/* ---- Item de formulario ---- */
+.campo {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.campo label{
+  flex-basis: 10rem;
+}
+.campo input:not([type="radio"]),
+.campo select,
+textarea {
+  padding: .8rem 1rem;
+  flex: 1;
+  border: .1rem solid #e1e1e1;
+  border-radius: .5rem;
+}
+.campo input:focus,
+textarea:focus {
+  outline: none;
+}
+.radio{
+  display: flex;
+  align-items: center;
+}
+.radio input[type="radio"]{
+  cursor: pointer;
+}
+
+/* ---- botón submit ---- */
+.submit{
+  display: block;
+  width: 25rem;
+  margin: 0 auto;
+}

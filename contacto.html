@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muebles Express - Contacto</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/contacto.css" />
+    <!-- Fin estilos -->
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fin fuente -->
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center">Muebles <span>Express</span></h1>
+    </header>
+
+    <nav class="nav-principal container">
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./nosotros.html">Nosotros</a></li>
+        <li><a href="./tienda.html">Tienda</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a href="./galeria.html">Galería</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main class="padding-xy-5">
+      <h2 class="text-center padding-b-5">Contacto</h2>
+      <form class="formulario container">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <div class="campo">
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              placeholder="Ingresa tu nombre"
+              id="name"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              placeholder="Ingresa su e-mail"
+              id="email"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="tel">Teléfono:</label>
+            <input
+              type="tel"
+              placeholder="Ingresa su teléfono"
+              id="tel"
+              required
+            />
+          </div>
+          <div class="campo">
+            <label for="asunto">Asunto:</label>
+            <input type="text" placeholder="Tu asunto" id="asunto" required />
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>País</legend>
+          <div class="campo">
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+              <option value="" selected disabled>--- Seleccione --</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Colombia">Colombia</option>
+              <option value="España">España</option>
+              <option value="México">México</option>
+              <option value="Perú">Perú</option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Información Adicional</legend>
+          <div class="campo radio">
+            <label for="cliente">Cliente</label>
+            <input type="radio" name="tipo" id="cliente" value="cliente" />
+          </div>
+          <div class="campo radio">
+            <label for="proveedor">Proveedor</label>
+            <input type="radio" name="tipo" id="proveedor" value="proveedor" />
+          </div>
+          <div class="campo">
+            <label for="categorias">Categoría de Interés:</label>
+            <input list="categorias" name="categorias" />
+            <datalist id="categorias">
+              <option value="Cocina" />
+              <option value="Exterior" />
+              <option value="Recamaras" />
+              <option value="Oficina" />
+              <option value="Decoración" />
+            </datalist>
+          </div>
+        </fieldset>
+        <div>
+          <input type="submit" value="Enviar Formulario" class="btn submit"/>
+        </div>
+      </form>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-wrapper container">
+        <div>
+          <h3>Categorías</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Cocina</a>
+              </li>
+              <li>
+                <a href="#">Oficina</a>
+              </li>
+              <li>
+                <a href="#">Jardín</a>
+              </li>
+              <li>
+                <a href="#">Cochera</a>
+              </li>
+              <li>
+                <a href="#">Dormitorios</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div>
+          <h3>Sobre Nosotros</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Nuestra Historia</a>
+              </li>
+              <li>
+                <a href="#">Misión, Visión y Valores</a>
+              </li>
+              <li>
+                <a href="#">Carreras</a>
+              </li>
+              <li>
+                <a href="#">Políticas de Privacidad</a>
+              </li>
+              <li>
+                <a href="#">Términos del Servicio</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-nav-soporte">
+          <h3>Soporte</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">FAQ's</a>
+              </li>
+              <li>
+                <a href="#">Ayuda en línea</a>
+              </li>
+              <li>
+                <a href="#">Confianza y Seguridad</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <p class="text-center copyright">
+        &copy; Todos los derechos reservados, Muebles Express
+      </p>
+    </footer>
+  </body>
+</html>
